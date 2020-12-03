@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .input {
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    color: black;
+  }
+
+  .text {
+    color: white;
+    background: black;
+    .name {
+      color: rgb(131, 113, 70);
+    }
+  }
+
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
